@@ -3,11 +3,11 @@
   "basics": {
     "name": "Andy Taylor",
     "label": "Networking Specialist Solutions Architect at Amazon Web Services (AWS)",
-    "image": "",
+    "image": "https://s.gravatar.com/avatar/003beef78bad253f78e1d1025c9f772d?s=256",
     "email": "andy@andytaylor.dev",
     "phone": "",
     "url": "",
-    "summary": "AWS Certifications:\nAWS Certified Solutions Architect - Associate (SAA)\nAWS Certified Developer - Associate (DVA)\nAWS Certified SysOps Administrator - Associate (SOA)\nAWS Certified Solutions Architect - Professional (SAP)\nAWS Certified Advanced Networking - Speciality (ANS)\nAWS Certified Security - Speciality (SCS) \nAWS Subject Mater Expert - Speciality\n\nHashicCorp:\nHashiCorp Core Contributor 2023 \nHashiCorp Terraform Associate\nCertified HashiCorp Implementation Partner (CHIP)\n\nNetworking: \nLAN, WAN, Cisco routing and switching, Cisco ACI (ACI mode), Cisco Nexus (2K, 5K and 7K), Cisco CSP-2100, Cisco Content Switching Module (CSM), Cisco Content Services Switch (11500 series), Cisco Application Control Engine (ACE) Module and 4710, Cisco Global Site Selector (GSS), F5 BigIP (LTM) and AVI Vantage (LTM, GSLB and WAF), Cisco SSL Modules (SSLM), Cisco Security Manager (CSM), SevOne, Spirent Web Avalanche, SmartBits and IXIA performance analysis systems, Foundry Routers, Foundry Switches and ServerIron\n\nAutomation:\nAnsible, Terraform, Python\n\nSecurity:\nCheck Point Firewall-1, Check Point Provider-1, Crossbeam X and C series (XOS and COS), Nokia IP Series, Nokia IPSO clustering, Cisco PIX, ASA (including ASA clustering), FWSM and FTD (Firewall Thread Defence), PaloAlto Firewalls, Cisco IOS Firewall Feature Set, Netscreen ScreenOS 4 and 5, Cisco Secure Intrusion Detection System (4200’s), Cisco Secure Policy Manager, Security Assessment tools, AlgoSec, VSSMonitor Brokers, Cisco Nexus Databrokers\n\nOperating systems:\t\t\nLinux, Solaris, HPUX, macOS, Microsoft, Nokia IPSO, Crossbeam XOS and COS, VMWare ESXi\n\nMiscellaneous: \nShell scripting, Unix system administration\n\nSpecialities: Secure Network Design, Data Centre networking, Implementation & Support, Security Product Evaluation, Network and Host Intrusion Detection (IDS), Penetration Testing, Technical \nNetwork Automation, Project and Team Management, Technical Project Management",
+    "summary": "I have worked in the networking space since 1990 and am hugely passionate about networking and networkng as code. I run the 'Cloud Networking as Clode Slack group and Cloud Networking as Code blog. I am also passionate about building a Cloud Networking as Code community.",
     "location": {
       "countryCode": "UK",
       "address": "United Kingdom"
@@ -17,6 +17,11 @@
         "network": "LinkedIn",
         "username": "ataylor",
         "url": "https://www.linkedin.com/in/ataylor/"
+      },
+      {
+        "network": "Credly",
+        "username": "Certifications",
+        "url": "https://www.credly.com/users/abhinav-pandey.57630677"
       }
     ]
   },
@@ -25,7 +30,6 @@
       "name": "Amazon Web Services (AWS)",
       "position": "Networking Specialist Solutions Architect",
       "startDate": "2021-01-31",
-      "endDate": "",
       "highlights": [],
       "summary": "Network Specialist Solutions Architect: As a specialist solutions architect I provide networking architectural guidance at all levels to AWS customers. Customer engagements also mean working closely with customer account teams and network service teams.\n\nCloud Networking as Code: I lead a Cloud Networking as Code (CNaC) group driving AWS Networking as Code practices. Working closely with AWS Networking Service Teams the CNaC team contribute to IaC Frameworks to ensure support for AWS Networking services which include contributing to the AWS Terraform Provider and developing AWS CDK L2 Constructs. With robust framework support, sample code representative of enterprise use cases are written and published, where needed, the team also write and publish AWS Terraform Modules and CDK \nConstructs for general consumption.\n\nI am a member of Networking, Builder Experience and Open-Source Software TFCs (Technical Field Communities) serving as a bridge between the 3 TFCs to further drive Networking as Code.\n\nWorkshops: I have orchestrated and delivered internal, instructor led, hands-on multi-day workshops to teach – Contributing to the AWS Terraform Provider, Using the AWS CDK to deploy AWS Networking architecture and How to write Terraform Modules. These workshops have enabled over 500 Solution Architects and Professional Services consultants globally.\n\nSDE Activities: In order to raise the bar on published code artefacts I wanted to get involved in production SDE work as I had been a self-taught programmer. I have established an SDE Apprenticeship Program providing a structured apprenticeship working with a SDE team as a part-time SDE on production code. As the pilot apprentice I am working with the AWS Network Manger/Cloud WAN service team as a part-time SDE which involves working on production Cloud WAN code.",
       "url": "https://www.linkedin.com/company/amazon-web-services/",
@@ -197,280 +201,98 @@
     }
   ],
   "volunteer": [],
-  "education": [
+  "awards": [],
+  "certificates": [
     {
-      "institution": "ipSpace Building Network Automation Solutions course",
-      "area": "",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
-      "score": "",
-      "courses": []
+      "name": "AWS Certifications",
+      "level": "",
+      "keywords": [
+        "AWS Certified Solutions Architect - Associate (SAA)",
+        "AWS Certified Developer - Associate (DVA)",
+        "AWS Certified SysOps Administrator - Associate (SOA)",
+        "AWS Certified Solutions Architect - Professional (SAP)",
+        "AWS Certified Advanced Networking - Speciality (ANS)",
+        "AWS Certified Security - Speciality (SCS)",
+        "AWS Subject Mater Expert - Speciality"
+      ]
+    },
+    {
+      "name": "HashicCorp",
+      "level": "",
+      "keywords": [
+        "HashiCorp Core Contributor 2023",
+        "HashiCorp Terraform Associate",
+        "Certified HashiCorp Implementation Partner (CHIP)"
+      ]
     }
   ],
-  "awards": [],
-  "certificates": [],
   "publications": [],
   "skills": [
     {
-      "name": "Network Security",
+      "name": "AWS Networking",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Checkpoint",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "VPN",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Firewalls",
-      "level": "",
-      "keywords": []
+      "keywords": [
+        "Automation",
+        "Transit Gateway",
+        "CloudWAN",
+        "Direct Connect",
+        "VPN",
+        "Design",
+        "Architecture",
+        "Consultancy"
+      ]
     },
     {
       "name": "Amazon Web Services (AWS)",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Networking",
+        "DevOps",
+        "AWS",
+        "Security",
+        "IaC",
+        "Automation"
+      ]
     },
     {
-      "name": "bp",
+      "name": "Infrastructure as Code",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TCP/IP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Active Directory",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "WAN",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Solution Design",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Vulnerability Assessment",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "IPS",
-      "level": "",
-      "keywords": []
+      "keywords": ["Terraform", "AWS CDK", "CloudFormation", "Pulumi"]
     },
     {
       "name": "Networking",
       "level": "",
-      "keywords": []
+      "keywords": ["AWS", "Data Center", "BGP", "OSPF", "LAN", "WAN"]
     },
     {
-      "name": "DNS",
+      "name": "Coding",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Routers",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cisco Nexus",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "OSPF",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Penetration Testing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Virtualization",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Network Design",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Computer Security",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Center",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Network Architecture",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Network Administration",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cisco Routers",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Switches",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Network Engineering",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Security",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Solaris",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "ASA",
-      "level": "",
-      "keywords": []
+      "keywords": ["Python", "Golang", "Java", "TypeScript"]
     },
     {
       "name": "Cisco",
       "level": "",
-      "keywords": []
+      "keywords": [" Networking", "Security", "Data Center"]
     },
     {
-      "name": "Information Security",
+      "name": "Solution Design and Architecture",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Information Security Management",
+      "name": "Team and Project Management",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Complex Project Management",
+        "Team Management",
+        "Technical Project Management",
+        "Project Management"
+      ]
     },
     {
-      "name": "IP",
+      "name": "Operating Systems",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Juniper",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cisco Technologies",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Routing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "IPSec",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cisco IOS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "IDS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "BGP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "F5 BigIP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Load Balancing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Security Awareness",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Unix",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Windows Server",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Security Audits",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "System Administration",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Solution Architecture",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "VMware",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Servers",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PIX",
-      "level": "",
-      "keywords": []
+      "keywords": ["Linux", "macOS", "Windows", "Solaris", "HPUX"]
     }
   ],
   "languages": [
@@ -479,7 +301,11 @@
       "fluency": "Native Speaker"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "keywords": ["Martial Arts", "Technical skill development"]
+    }
+  ],
   "references": [
     {
       "name": "Rob Wilkins",
@@ -500,6 +326,7 @@
   ],
   "projects": [],
   "meta": {
+    "theme": "jsonresume-theme-kendall",
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }
