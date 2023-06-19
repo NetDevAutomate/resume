@@ -1,5 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "jsonresume-theme-kendall"
+  },
   "basics": {
     "name": "Andy Taylor",
     "label": "Networking Specialist Solutions Architect at Amazon Web Services (AWS)",
@@ -322,10 +324,5 @@
       "reference": "Andy proved himself to be a very capable network and security engineer.\r\nI would have no hesitation to recommend him for Principal engineering roles.\r\nCheers\r\nJason"
     }
   ],
-  "projects": [],
-  "meta": {
-    "theme": "jsonresume-theme-kendall",
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+  "projects": []
 }
