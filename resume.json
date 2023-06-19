@@ -5,12 +5,10 @@
     "label": "Networking Specialist Solutions Architect at Amazon Web Services (AWS)",
     "image": "https://s.gravatar.com/avatar/003beef78bad253f78e1d1025c9f772d?s=256",
     "email": "andy@andytaylor.dev",
-    "phone": "",
-    "url": "",
     "summary": "I have worked in the networking space since 1990 and am hugely passionate about networking and networkng as code. I run the 'Cloud Networking as Clode Slack group and Cloud Networking as Code blog. I am also passionate about building a Cloud Networking as Code community.",
     "location": {
       "countryCode": "UK",
-      "address": "United Kingdom"
+      "city": "London"
     },
     "profiles": [
       {
