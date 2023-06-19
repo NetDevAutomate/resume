@@ -1,0 +1,506 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Andy Taylor",
+    "label": "Networking Specialist Solutions Architect at Amazon Web Services (AWS)",
+    "image": "",
+    "email": "andy@andytaylor.dev",
+    "phone": "",
+    "url": "",
+    "summary": "AWS Certifications:\nAWS Certified Solutions Architect - Associate (SAA)\nAWS Certified Developer - Associate (DVA)\nAWS Certified SysOps Administrator - Associate (SOA)\nAWS Certified Solutions Architect - Professional (SAP)\nAWS Certified Advanced Networking - Speciality (ANS)\nAWS Certified Security - Speciality (SCS) \nAWS Subject Mater Expert - Speciality\n\nHashicCorp:\nHashiCorp Core Contributor 2023 \nHashiCorp Terraform Associate\nCertified HashiCorp Implementation Partner (CHIP)\n\nNetworking: \nLAN, WAN, Cisco routing and switching, Cisco ACI (ACI mode), Cisco Nexus (2K, 5K and 7K), Cisco CSP-2100, Cisco Content Switching Module (CSM), Cisco Content Services Switch (11500 series), Cisco Application Control Engine (ACE) Module and 4710, Cisco Global Site Selector (GSS), F5 BigIP (LTM) and AVI Vantage (LTM, GSLB and WAF), Cisco SSL Modules (SSLM), Cisco Security Manager (CSM), SevOne, Spirent Web Avalanche, SmartBits and IXIA performance analysis systems, Foundry Routers, Foundry Switches and ServerIron\n\nAutomation:\nAnsible, Terraform, Python\n\nSecurity:\nCheck Point Firewall-1, Check Point Provider-1, Crossbeam X and C series (XOS and COS), Nokia IP Series, Nokia IPSO clustering, Cisco PIX, ASA (including ASA clustering), FWSM and FTD (Firewall Thread Defence), PaloAlto Firewalls, Cisco IOS Firewall Feature Set, Netscreen ScreenOS 4 and 5, Cisco Secure Intrusion Detection System (4200’s), Cisco Secure Policy Manager, Security Assessment tools, AlgoSec, VSSMonitor Brokers, Cisco Nexus Databrokers\n\nOperating systems:\t\t\nLinux, Solaris, HPUX, macOS, Microsoft, Nokia IPSO, Crossbeam XOS and COS, VMWare ESXi\n\nMiscellaneous: \nShell scripting, Unix system administration\n\nSpecialities: Secure Network Design, Data Centre networking, Implementation & Support, Security Product Evaluation, Network and Host Intrusion Detection (IDS), Penetration Testing, Technical \nNetwork Automation, Project and Team Management, Technical Project Management",
+    "location": {
+      "countryCode": "UK",
+      "address": "United Kingdom"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ataylor",
+        "url": "https://www.linkedin.com/in/ataylor/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "position": "Networking Specialist Solutions Architect",
+      "startDate": "2021-01-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Network Specialist Solutions Architect: As a specialist solutions architect I provide networking architectural guidance at all levels to AWS customers. Customer engagements also mean working closely with customer account teams and network service teams.\n\nCloud Networking as Code: I lead a Cloud Networking as Code (CNaC) group driving AWS Networking as Code practices. Working closely with AWS Networking Service Teams the CNaC team contribute to IaC Frameworks to ensure support for AWS Networking services which include contributing to the AWS Terraform Provider and developing AWS CDK L2 Constructs. With robust framework support, sample code representative of enterprise use cases are written and published, where needed, the team also write and publish AWS Terraform Modules and CDK \nConstructs for general consumption.\n\nI am a member of Networking, Builder Experience and Open-Source Software TFCs (Technical Field Communities) serving as a bridge between the 3 TFCs to further drive Networking as Code.\n\nWorkshops: I have orchestrated and delivered internal, instructor led, hands-on multi-day workshops to teach – Contributing to the AWS Terraform Provider, Using the AWS CDK to deploy AWS Networking architecture and How to write Terraform Modules. These workshops have enabled over 500 Solution Architects and Professional Services consultants globally.\n\nSDE Activities: In order to raise the bar on published code artefacts I wanted to get involved in production SDE work as I had been a self-taught programmer. I have established an SDE Apprenticeship Program providing a structured apprenticeship working with a SDE team as a part-time SDE on production code. As the pilot apprentice I am working with the AWS Network Manger/Cloud WAN service team as a part-time SDE which involves working on production Cloud WAN code.",
+      "url": "https://www.linkedin.com/company/amazon-web-services/",
+      "location": "London, England, United Kingdom"
+    },
+    {
+      "name": "BP",
+      "position": "Enterprise Architect",
+      "startDate": "2020-04-30",
+      "endDate": "2021-01-31",
+      "highlights": [],
+      "summary": "As an enterprise architect, I am responsible for architectural network decisions across multiple business segments including retail, field, edge & site services, security, cloud and core networks. Architecture activity includes ongoing development of network architecture standards, cloud networking strategy SDWAN strategy, a technical reference model and assessing and planning technical debt. Project work includes investigation of evolving technologies, Azure Stack Hub evaluation, SDWAN integration into Azure hub, cloud networking, secure Internet facing capabilities, WAF, DDoS and BP Firewall strategy. \n\nBP has a strategic intent to migrate on-premise hosted workloads to BPs cloud providers and consolidate BPs datacentres. I am working with BP cloud platform teams to develop standard cloud network topologies and align capabilities between cloud providers and on-premise datacentres. \n\nI am continuing to work with the engineering team to develop and promote network automation across each segment, ensuring both architecture and operations deploy infrastructure with an ‘automation first’ principle.",
+      "url": "https://www.linkedin.com/company/bp/"
+    },
+    {
+      "name": "BP",
+      "position": "Network Architect",
+      "startDate": "2017-10-31",
+      "endDate": "2020-04-30",
+      "highlights": [],
+      "summary": "I’m currently leading the new CNX (Cloud Network eXchange) design. The design will provide a hypervisor agnostic architecture to deploy a network fabric. The primary purpose is to provide a scalable, secure architecture that can be deployed on-premise, in a carrier-neutral co-lo, in AWS and Azure spokes to provide cloud network services. The architecture will provide connectivity between BP and BPs cloud infrastructure, host an SDWAN head-end and provide a highly converged hosting environment for network virtual functions and management infrastructure. A key design principle is to automate the deployment and ongoing BAU functions working towards the ideal of Infrastructure as Code.\n\nI'm working with the AWS and Azure teams on a Hub and Spoke architecture using AWS Transit Gateway and Azure vHUB.\n\nI provide technical and architectural governance to the network DevOps teams as well as championing the ongoing network automation initiative. I’ve written Ansible modules in Python for discrete firewall and Cisco ISE functions as well as several Ansible playbooks for configuration audit, standardisation and change across a large heterogeneous network. I've also used Terraform to provision infrastructure across Azure and on-premise VMware clusters for the SDWAN head-end architecture deployment. Where neither Ansible nor Terraform are viable Python is used to deliver the function, often using Nornir.\n\nTo further educate the wider team, I’ve organised a serious of workshops with automation subject matter experts from several vendors both from a network-specific and broader automation perspective. I continue to provide 3rd line support when required across all cells.",
+      "url": "https://www.linkedin.com/company/bp/",
+      "location": "Sunbury, Middlesex"
+    },
+    {
+      "name": "BP",
+      "position": "Project Lead Architect",
+      "startDate": "2016-01-31",
+      "endDate": "2017-10-31",
+      "highlights": [],
+      "summary": "Cloud Network Exchange Project:\nIn 2016 BP declared its strategic intent is to migrate 80% of data center workloads to the public cloud and consolidate its own data centers. As such a new Network Transformation Project was created to deliver a new CNX (Cloud Network Exchange) to facilitate the migration and data center consolidation. Following successful delivery of the original network transformation and cloud connectivity I was asked to be the BP technical project lead, working heavily with Cisco Advanced Services. The scope of this project it to liaise with the CTP (Cloud Transformation Project) and CSL (Cloud Service Line) and DS&R (Digital Security and Risk) to gather requirements, lead the design, proof of concept, deployment and migration across EMEA and the US. The full solution underwent rigorous testing through SVS (Cisco Validated Solutions) prior to deployment during which I spent two weeks in RTP working with Cisco AS and the SVS teams.\n\nFour autonomous CNX environments were deployed, two in the US and two in EMEA using carrier neutral facilities (Equinix). Each CNX used Cisco ACI to provide a flexible, high throughput fabric. The CNX design consists of an ACI fabric with Cisco Firepower Threat Defense devices for security policy enforcement and NIPS functions, AVI for load balancing, GSLB and WAF functions as well as SSL inspection. Cisco CSP-2100 (Cloud Service Platforms) are used to provide an NFV platform. \n\nThe CNX2.0 design contributed heavily to Cisco’s SAE (Secure Agile Exchange) solution.\n\nEach CNX will provides connectivity to BPs strategic cloud providers, migrated network services  such as Internet and Extranet Gateways, MAN circuits, telecom and voice services etc. \n\nDuring the CNX2.0 build, where possible I used Ansible and Python to deploy and change network configuration, deploy and manage load balancing infrastructure, maintain Linux bastion server builds, collect network configurations and store in a local GIT repository.",
+      "url": "https://www.linkedin.com/company/bp/",
+      "location": "Sunbury, Middlesex"
+    },
+    {
+      "name": "BP",
+      "position": "Project Lead Architect",
+      "startDate": "2013-01-31",
+      "endDate": "2016-01-31",
+      "highlights": [],
+      "summary": "Network Transformation Project:\nMy role with BP is as the project lead architect for the global Data Centre Transformation (EoSL) project. The Data Centre EoSL is the most architecturally significant project globally for 2013 and 2014.\n\nThe BP Data Centre Transformation (EoSL) project is to replace the traditional three tier network architecture based on Cisco Catalyst 6500's, FWSMs and CSMs with a new Cisco Nexus FabricPath design with a Cisco ASA cluster and F5 LTMs. The new infrastructure uses a combination of Cisco Nexus 7004, 7010, 5000 and 2000's. The new infrastructure provides a highly scalable, resilient and secure environment for BPs critical services in 6 data centres (2 in the UK and 4 in the US).\n\nAs project lead architect I owned the project from a technical perspective and report back to the project team as well as BPs strategy panning team, and working with digita security, architecture and operations. Shortly after joining I was also asked to assume the role of security architect for the project.\n\nAs well as the design and implementation of the new data centre infrastructure globally, the project remit also included migration from the legacy data centre services to the new infrastructure with decommission the legacy data centre.\n\nThe early stages of the project included requirements definition, validation with extensive stakeholder engagement. A full proof of concept network was built and tested followed by extensive acceptance testing and documentation.\n\nFollowing deployment the project team handed over to operations and provided training and support.",
+      "url": "https://www.linkedin.com/company/bp/"
+    },
+    {
+      "name": "Sony",
+      "position": "Security Consultant",
+      "startDate": "2012-06-30",
+      "endDate": "2013-01-31",
+      "highlights": [],
+      "summary": "My role as a security consultant within Sony Europe was to provide security input into all infrastructure projects within Sony Europe. The range of projects was very broad, ranging from Mobile Device Management to implementations of specialist in house applications, point security product evaluation, implementation and operational ownership. \n\nLarger more involved projects include working on a new cloud hosting environment infrastructure, DDos (Prolexic), overall management of the European McAfee ePO (A/V, HIPS and disk encryption), network security strategy and gap analysis against best practices.",
+      "url": "https://www.linkedin.com/company/sony/"
+    },
+    {
+      "name": "De La Rue",
+      "position": "Network and Security Architect",
+      "startDate": "2009-09-30",
+      "endDate": "2012-09-30",
+      "highlights": [],
+      "summary": "I was working at De La Rue as the Network and Security Architect and Technical Infrastructure Lead on a UK government project. I was responsible for the design and implementation of a highly resilient dual data centre design and deployment, together with the design and deployment of a number of regional sites. The scope of my responsibility began from working with the business to define the functional requirements to the design, documentation and deployment of the infrastructure. This includes the network, network security, server and workstation builds server, workstation security, and supporting infrastructure components such as AD, DNS, patch management etc. I was also responsible for a team of system and network engineers.\n\nThe network design provides a scalable, highly resilient, secure infrastructure with local server and regional load balancing, multi-vendor firewalls, multi-vendor IDS/IPS, compliant to CESG best practices guides, and relevant INFOSEC memorandums. The central sites are IL5 compliant and fully accredited.\n\nWith a high profile, definite ‘go live’ date, there was no scope for delay or non-compliance for any of the infrastructure.\n\nDue to the nature of the project, I am not in a position to detail the infrastructure components of design specifics.",
+      "url": "https://www.linkedin.com/company/de-la-rue/"
+    },
+    {
+      "name": "Land Securities",
+      "position": "Network and Security Engineer",
+      "startDate": "2008-04-30",
+      "endDate": "2009-09-30",
+      "highlights": [],
+      "summary": "Land Securities is a FTSE 100 company who own and manage approximately 7.6 million m2 of commercial property and provide property services to more than 2,500 private and public sector clients. My role at Land Securities was to finalise the design and deploy Extranet Gateways for the London and Retail businesses. The scope of the role was to provide the routing design, build and test a proof of concept network, document the new design and deploy into production for Retail and London. The design includes Cisco Catalyst 3750 layer 3 switches running in a stack, Cisco ASA5500s, Crossbeam C6 firewalls running Check Point Firewall-1. Cisco MARS and CSM were deployed for infrastructure management. The design provided a resilient infrastructure with specific DMZs being extended over two sites with extended layer 2 VLANs. BGP and OSPF were used as the EGP and IGP providing a deterministic routing policy with fast convergence. The design also provided DMVPNs, site-to-site and user VPNs.",
+      "url": "https://www.linkedin.com/company/landsec/"
+    },
+    {
+      "name": "BP",
+      "position": "Network and Security Architect",
+      "startDate": "2006-03-31",
+      "endDate": "2008-04-30",
+      "highlights": [],
+      "summary": "My role within BP was as a network and security architect working within the Data Centre Architecture group. My primary projects included the design and implementation of a Continuously Critical Block; a Global Server Load Balancing design to provide GSLB between sites within a region and over multiple regions; SSL Offload and Multicast within the Data Centre; joint lead network architect on four America Mega Data Centre deployments and lead network architect for the second European Mega Data Centre, all of which involved network design, technical project management, providing technical direction and assistance to the deployment group. The Data Centre architect roles also mean leading teams of 4 to 6 people.\n\nI also provided technical project management on a number of infrastructure projects and 3rd line network and firewall support for the all BPs Mega Data Centers.",
+      "url": "https://www.linkedin.com/company/bp/"
+    },
+    {
+      "name": "COLT Telecommunications",
+      "position": "Network Security Engineer",
+      "startDate": "2006-01-31",
+      "endDate": "2006-03-31",
+      "highlights": [],
+      "summary": "My role within Colts System Operations Architecture and Engineering group was to technically project manage, and engineer the Colt One Network cleanup project. The project required defining architecture, providing a strategic design to interface with country data centers and then migrate the current architecture to the strategic design.\n\nOther projects I was responsible for from a technical perspective were the design of a complete remote access solution for remote support staff, including the authentication mechanisms to be used to access the network and server infrastructure.  This solution included Junipers VPN SSL SA2000, Check Point Firewall-1 with User Authority agents and Cisco Access Control Server and Microsoft Active Directory. I also provided security consultancy to other projects within COLT.\n\nWith the groups physical relocation, this is a short term contract taken to gain experience with a Telecommunications group.",
+      "url": "https://www.linkedin.com/company/colt-technology-services/"
+    },
+    {
+      "name": "Reuters",
+      "position": "Network Securit Engineer",
+      "startDate": "2005-09-30",
+      "endDate": "2006-01-31",
+      "highlights": [],
+      "summary": "I was working for the Network Infrastructure group with my main responsibility being the deployment of the Reuters Check Point Firewall-1 SecurePlatform firewalls. As part of the deployment process I also configured the Cisco network infrastructure which consist mainly of Cisco 4507Rs, 6500s and 11500 content service switches.\n\nI provided 2nd line support for the network and security groups working on Cisco switches and routers, Check Point and Netscreen firewalls, operating system support for some applications, and work closely with the engineering groups providing feedback on the Firewall design and builds.\n\nThis was a short term contract to assist with the build of a new data center, and taken to gain experience with a Service Provider.",
+      "url": "https://www.linkedin.com/company/thomson-reuters/"
+    },
+    {
+      "name": "Goldman Sachs",
+      "position": "Technical Project Manager",
+      "startDate": "2004-06-30",
+      "endDate": "2005-09-30",
+      "highlights": [],
+      "summary": "The main project I was involved in was the design of new B2B and Internet Firewalls infrastructures. The new B2B and Internet Firewalls will host many business critical systems, however a particular application requires extensive connectivity between many Firewalls silos and therefore part of the design was to provide interconnectivity in a secure manner. \n\nThe scope of my involvement was to project manage the engineering and implementation aspects of the project, liaising with the business to gather and document requirements, produce the design, implement the final solution and hand over the operations group.\n\nI also provided technical project management for other projects within the group, and 3rd line support on the existing Firewalls, which included Nokia IP series running Check Point Firewall-1 NG and Cisco routers and switches.",
+      "url": "https://www.linkedin.com/company/goldman-sachs/"
+    },
+    {
+      "name": "Credit Suisse First Boston",
+      "position": "Senior Network Security Engineer",
+      "startDate": "2003-10-31",
+      "endDate": "2004-06-30",
+      "highlights": [],
+      "summary": "I worked in Credit Suisse First Bostons Connectivity and Security Team (CaST) Projects I worked on include:\n\nResponsibility for the design, implementation and support of a global network load balancing solution. \n\nSupport of the Internet and Third Party Firewall environment. This included supporting Check Point Firewall-1 on Nokia IP series, Netscreen ScreenOS 4 and 5, Cisco routers and switches, Cisco CSS 11500s.\n\nProvision of network support for external networks, including support for the external switching domains, routing (BGP and OSPF) as well as resolving any issues with third party, Internet and site-to-site VPN connectivity.\n\nI was also a key member of a small team working on the selection of a global Firewall platform, evaluating Netscreens and Check Point NG VSX running on SecurePlatform and Nokia IP series appliances.",
+      "url": "https://www.linkedin.com/company/credit-suisse/"
+    },
+    {
+      "name": "Deutsche Bank",
+      "position": "Senior Network Security Engineer & Intrusion Detection Specialist",
+      "startDate": "2001-07-31",
+      "endDate": "2003-10-31",
+      "highlights": [],
+      "summary": "The main projects I was involved in were the design of a resilient, high performance, modular Firewall Silo to provide Market Data and Extranet services to Deutsche Bank. BGP is used when peering with large extranet partners to provide a highly scalable and resilient solution. These Silos also needed to be multicast enabled to cater for the growing number of multicast Market Data applications. I was also responsible for the Linux Firewall platform design providing a resilient, high performance, cost efficient solution using Checkpoints Firewall-1 NG product with ClusterXL on a hardened Linux operating system.\n\nI provided desing consultancy for the global network intrusion detection deployment.\n\nI provided consultancy to business groups ensuring proposed external connectivity were implemented in a secure manner and in line with current design and security standards.\n\nI also provided 3rd line support.",
+      "url": "https://www.linkedin.com/company/deutsche-bank/"
+    },
+    {
+      "name": "Merrill Lynch HSBC",
+      "position": "Senior Network Security Engineer",
+      "startDate": "2000-11-30",
+      "endDate": "2001-07-31",
+      "highlights": [],
+      "summary": "Appointed as Senior Security Consultant primarily to evaluate, design and implement globally scalable VPN and IDS solutions. The scope of my involvement was product selection, design and implementation.  \n\nI also was also responsible for the design of new multi-tiered architecture for a market data firewall gateway, security audits on the existing security infrastructure and penetration testing of the hosting centres, data centres and head offices. A full written report was compiled, with recommendations and actions, to ensure the security exceeded regulatory and audit requirements. The results were compiled into a full report with recommendations on any action to resolve any areas of concern.\n\nAs well as the design and support of the security infrastructure I provided security consultancy to the business ensuring e-commerce applications were implemented in a secure manner, both from an application level and network connectivity perspective.",
+      "url": "https://www.linkedin.com/company/merrilllynch/"
+    },
+    {
+      "name": "Deutsche Bank",
+      "position": "Senior Network Security Engineer",
+      "startDate": "1999-03-31",
+      "endDate": "2000-11-30",
+      "highlights": [],
+      "summary": "I was the lead engineer responsible for the design process of a global Lite modular firewall architecture using Check Points Firewall-1 running on the Nokia IP series with Cisco routers and switches.  Other projects I was involved in included the design of other new firewall solutions and with any testing of the proposed components. Projects included Deutsche Banks E-Commerce firewall solution that provides server, firewall and site load balancing and fail over using Foundry ServerIrons. I provided 3rd line support for the banks firewall environments on a 24 X 7 basis. \n\nI provided security consultancy to the business performing security reviews on any modifications to existing external connections and any newly proposed connections. The Secure Connectivity team was responsible for all the network security and engineering requirements for external connections into Deutsche Bank. These security reviews were performed on all applications with external connectivity.",
+      "url": "https://www.linkedin.com/company/deutsche-bank/"
+    },
+    {
+      "name": "Fidelity Investments Limited",
+      "position": "Firewall Administrator",
+      "startDate": "1998-12-31",
+      "endDate": "1999-03-31",
+      "highlights": [],
+      "summary": "My projects as the firewall administrator at Fidelity included the administration of all the machines within the firewall environment ensuring a secure Internet and extranet environment. This included building application relays/proxies using the TIS FWTK and Netscape Proxy servers, building and stripping the core operating system and configuring ODS for disk mirroring. Administering the firewall specific applications such as Firewall-1 and the FWTK, I also administered DNS, Sendmail, Network News, the Internet Cisco Routers, Internet and Intranet web servers and provided Unix support and technical consultancy on design and implementation on security related projects, which included re-designing the extranet environment.",
+      "url": "https://www.linkedin.com/company/fidelity-investments/"
+    },
+    {
+      "name": "HSBC Investment Bank",
+      "position": "Firewall Administrator",
+      "startDate": "1998-05-31",
+      "endDate": "1998-12-31",
+      "highlights": [],
+      "summary": "My projects as HSBCs firewall administrator included the design and testing of the Internet gateway and support of the live Market Data Firewalls.  I also worked closely with the business proving security consultancy.",
+      "url": "https://www.linkedin.com/company/hsbc/"
+    },
+    {
+      "name": "DHL Systems Limited",
+      "position": "Telecoms Manager",
+      "startDate": "1993-06-30",
+      "endDate": "1998-05-31",
+      "highlights": [],
+      "summary": "Administration of DHL Systems London 900+ node LAN and DHLs global multi-protocol WAN, both were primarily Cisco based, with Cisco PIX being used as the main firewall component.  I also administered HP Openview, deployed and supported DHLs global DNS, and provided global support for sendmail. I also worked in a small team to provision the European Internet gateway, which included the design and implementation firewall architecture. I also assisted with the system administration of both DHLs UNIX and windows based servers which consisted of Solaris, HP-UX, SCO and Windows NT.",
+      "url": "https://www.linkedin.com/company/dhl/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "ipSpace Building Network Automation Solutions course",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Network Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Checkpoint",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VPN",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Firewalls",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "bp",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TCP/IP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Active Directory",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WAN",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solution Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vulnerability Assessment",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IPS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Networking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DNS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Routers",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cisco Nexus",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OSPF",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Penetration Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Virtualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Computer Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Center",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cisco Routers",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Switches",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solaris",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASA",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cisco",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Information Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Information Security Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Juniper",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cisco Technologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Routing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IPSec",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cisco IOS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IDS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "BGP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "F5 BigIP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Load Balancing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Security Awareness",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unix",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Security Audits",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solution Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VMware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Servers",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PIX",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Rob Wilkins",
+      "reference": "Andy is a technically superb, his range of knowledge is second to none and he has an incredible ability to take on new technologies and concepts with apparent ease. In addition his attention to detail and desire to drive projects forward make him a huge asset to any team. I have worked with Andy for over 10 years now on a wide range of large & complex projects and would continue to do so at any given opportunity."
+    },
+    {
+      "name": "Darren Worvill",
+      "reference": "Andy is a strong leader who’s not afraid to pursue issues and drive them forward, this combined with his broad range of technical skills and focus on automation would make him a key member of any project team, as well as an excellent candidate for any technical leadership role.\n\nHaving worked with Andy, I know his core network experience in large enterprises and passion for automation will make him a valued asset of any large enterprise.\n\n"
+    },
+    {
+      "name": "Byron Chen",
+      "reference": "Andy is a first class engineer with skills and experience not just limited to Network Security. He is results driven and keeps his eye on the ball at all time with excellent project management"
+    },
+    {
+      "name": "Jason Bond",
+      "reference": "Andy proved himself to be a very capable network and security engineer.\r\nI would have no hesitation to recommend him for Principal engineering roles.\r\nCheers\r\nJason"
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
